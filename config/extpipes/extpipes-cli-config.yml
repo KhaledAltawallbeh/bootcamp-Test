@@ -52,6 +52,7 @@ rawdbs:
       rawtables:
           - rawtable-name: datapoints
             pipelines:
+
                 - source: ice-cream-api
                   schedule: On trigger
                   contacts:
